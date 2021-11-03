@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <link rel="shortcut icon" href="favicon.ico">
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="style.css">
+        <title>周期表当てゲーム</title>
+
+    </head>
+    <body>
+        <audio id="tadawav" src="tada.wav"preload="auto"></audio>
+        <audio id="vanwav" src="van.wav"preload="auto"></audio>
+        <script src="./javascript.js">
+        </script>
+        <div id="gamenn1">
+            <h1 class="title">周期表当てゲーム</h1>
+            <div class="buttontyuuou">
+                <input type="button" value="範囲指定なし" class="btn1" onclick="button1click()"/>
+                <input type="button" value="範囲指定あり" class="btn1" onclick="button2click()"/>
+            </div>
+        </div>
+        <div id="gamenn2">
+            <div class="hyou">
+            <div id="matigaeta">間違えた数：0</div>
+            <div id="seikaisita">正解した数：0</div>
+            <div id="nokori">残り0問</div></div>
+            <div class="wakusen">&nbsp;</div>
+<br>        <div class="kotaediv">
+                    <h3 class="setumei">正解するとここに表示されます</h3>
+                    <h2 class="kotaebanngou" id="kotaebanngou">&nbsp;</h2>
+                    <h1 class="kotae" id="kotae">&nbsp;</h1>
+                    <h2 class="kotaename" id="kotaename">&nbsp;</h2>
+            </div><div class="syuukihyou">
+            <div style="display: inline-block; _display: inline; margin-right: 710px;">
+            <input type="button" value=" 1 " class="btn21" onclick="clicknow('1')"/></div>
+            <input type="button" value=" 2 " class="btn21" onclick="clicknow('2')"/><br>
+            <input type="button" value=" 3 " class="btn21" onclick="clicknow('3')"/>
+            <div style="display: inline-block; _display: inline; margin-right: 444px;">
+            <input type="button" value=" 4 " class="btn21" onclick="clicknow('4')"/></div>
+            <input type="button" value=" 5 " class="btn21" onclick="clicknow('5')"/>
+            <input type="button" value=" 6 " class="btn21" onclick="clicknow('6')"/>
+            <input type="button" value=" 7 " class="btn21" onclick="clicknow('7')"/>
+            <input type="button" value=" 8 " class="btn21" onclick="clicknow('8')"/>
+            <input type="button" value=" 9 " class="btn21" onclick="clicknow('9')"/>
+            <input type="button" value="10 " class="btn22" onclick="clicknow('10')"/><br>
+            <input type="button" value="11 " class="btn22" onclick="clicknow('11')"/>
+            <div style="display: inline-block; _display: inline; margin-right: 445px;">
+            <input type="button" value="12 " class="btn22" onclick="clicknow('12')"/></div>
+            <input type="button" value="13 " class="btn22" onclick="clicknow('13')"/>
+            <input type="button" value="14 " class="btn22" onclick="clicknow('14')"/>
+            <input type="button" value="15 " class="btn22" onclick="clicknow('15')"/>
+            <input type="button" value="16 " class="btn22" onclick="clicknow('16')"/>
+            <input type="button" value="17 " class="btn22" onclick="clicknow('17')"/>
+            <input type="button" value="18 " class="btn22" onclick="clicknow('18')"/><br>
+            <input type="button" value="19 " class="btn22" onclick="clicknow('19')"/>
+            <input type="button" value="20 " class="btn22" onclick="clicknow('20')"/>
+            <input type="button" value="21 " class="btn22" onclick="clicknow('21')"/>
+            <input type="button" value="22 " class="btn22" onclick="clicknow('22')"/>
+            <input type="button" value="23 " class="btn22" onclick="clicknow('23')"/>
+            <input type="button" value="24 " class="btn22" onclick="clicknow('24')"/>
+            <input type="button" value="25 " class="btn22" onclick="clicknow('25')"/>
+            <input type="button" value="26 " class="btn22" onclick="clicknow('26')"/>
+            <input type="button" value="27 " class="btn22" onclick="clicknow('27')"/>
+            <input type="button" value="28 " class="btn22" onclick="clicknow('28')"/>
+            <input type="button" value="29 " class="btn22" onclick="clicknow('29')"/>
+            <input type="button" value="30 " class="btn22" onclick="clicknow('30')"/>
+            <input type="button" value="31 " class="btn22" onclick="clicknow('31')"/>
+            <input type="button" value="32 " class="btn22" onclick="clicknow('32')"/>
+            <input type="button" value="33 " class="btn22" onclick="clicknow('33')"/>
+            <input type="button" value="34 " class="btn22" onclick="clicknow('34')"/>
+            <input type="button" value="35 " class="btn22" onclick="clicknow('35')"/>
+            <input type="button" value="36 " class="btn22" onclick="clicknow('36')"/><br>
+            <input type="button" value="37 " class="btn22" onclick="clicknow('37')"/>
+            <input type="button" value="38 " class="btn22" onclick="clicknow('38')"/>
+            <input type="button" value="39 " class="btn22" onclick="clicknow('39')"/>
+            <input type="button" value="40 " class="btn22" onclick="clicknow('40')"/>
+            <input type="button" value="41 " class="btn22" onclick="clicknow('41')"/>
+            <input type="button" value="42 " class="btn22" onclick="clicknow('42')"/>
+            <input type="button" value="43 " class="btn22" onclick="clicknow('43')"/>
+            <input type="button" value="44 " class="btn22" onclick="clicknow('44')"/>
+            <input type="button" value="45 " class="btn22" onclick="clicknow('45')"/>
+            <input type="button" value="46 " class="btn22" onclick="clicknow('46')"/>
+            <input type="button" value="47 " class="btn22" onclick="clicknow('47')"/>
+            <input type="button" value="48 " class="btn22" onclick="clicknow('48')"/>
+            <input type="button" value="49 " class="btn22" onclick="clicknow('49')"/>
+            <input type="button" value="50 " class="btn22" onclick="clicknow('50')"/>
+            <input type="button" value="51 " class="btn22" onclick="clicknow('51')"/>
+            <input type="button" value="52 " class="btn22" onclick="clicknow('52')"/>
+            <input type="button" value="53 " class="btn22" onclick="clicknow('53')"/>
+            <input type="button" value="54 " class="btn22" onclick="clicknow('54')"/><br>
+            <input type="button" value="55 " class="btn22" onclick="clicknow('55')"/>
+            <input type="button" value="56 " class="btn22" onclick="clicknow('56')"/>
+            <input type="button" value="La " class="btn22r"/>
+            <input type="button" value="72 " class="btn22" onclick="clicknow('72')"/>
+            <input type="button" value="73 " class="btn22" onclick="clicknow('73')"/>
+            <input type="button" value="74 " class="btn22" onclick="clicknow('74')"/>
+            <input type="button" value="75 " class="btn22" onclick="clicknow('75')"/>
+            <input type="button" value="76 " class="btn22" onclick="clicknow('76')"/>
+            <input type="button" value="77 " class="btn22" onclick="clicknow('77')"/>
+            <input type="button" value="78 " class="btn22" onclick="clicknow('78')"/>
+            <input type="button" value="79 " class="btn22" onclick="clicknow('79')"/>
+            <input type="button" value="80 " class="btn22" onclick="clicknow('80')"/>
+            <input type="button" value="81 " class="btn22" onclick="clicknow('81')"/>
+            <input type="button" value="82 " class="btn22" onclick="clicknow('82')"/>
+            <input type="button" value="83 " class="btn22" onclick="clicknow('83')"/>
+            <input type="button" value="84 " class="btn22" onclick="clicknow('84')"/>
+            <input type="button" value="85 " class="btn22" onclick="clicknow('85')"/>
+            <input type="button" value="86 " class="btn22" onclick="clicknow('86')"/><br>
+            <input type="button" value="87 " class="btn22" onclick="clicknow('87')"/>
+            <input type="button" value="88 " class="btn22" onclick="clicknow('88')"/>
+            <input type="button" value="Ac " class="btn22r2" />
+            <input type="button" value="104" class="btn2" onclick="clicknow('104')"/>
+            <input type="button" value="105" class="btn2" onclick="clicknow('105')"/>
+            <input type="button" value="106" class="btn2" onclick="clicknow('106')"/>
+            <input type="button" value="107" class="btn2" onclick="clicknow('107')"/>
+            <input type="button" value="108" class="btn2" onclick="clicknow('108')"/>
+            <input type="button" value="109" class="btn2" onclick="clicknow('109')"/>
+            <input type="button" value="110" class="btn2" onclick="clicknow('110')"/>
+            <input type="button" value="111" class="btn2" onclick="clicknow('111')"/>
+            <input type="button" value="112 " class="btn2" onclick="clicknow('112')"/>
+            <input type="button" value="113" class="btn2" onclick="clicknow('113')"/>
+            <input type="button" value="114" class="btn2" onclick="clicknow('114')"/>
+            <input type="button" value="115 " class="btn2" onclick="clicknow('115')"/>
+            <input type="button" value="116" class="btn2" onclick="clicknow('116')"/>
+            <input type="button" value="117" class="btn2" onclick="clicknow('117')"/>
+            <input type="button" value="118" class="btn2" onclick="clicknow('118')"/><br><br>
+            <input type="button" value="57 " class="btn22rr" onclick="clicknow('57')"/>
+            <input type="button" value="58 " class="btn22rr" onclick="clicknow('58')"/>
+            <input type="button" value="59 " class="btn22rr" onclick="clicknow('59')"/>
+            <input type="button" value="60 " class="btn22rr" onclick="clicknow('60')"/>
+            <input type="button" value="61 " class="btn22rr" onclick="clicknow('61')"/>
+            <input type="button" value="62 " class="btn22rr" onclick="clicknow('62')"/>
+            <input type="button" value="63 " class="btn22rr" onclick="clicknow('63')"/>
+            <input type="button" value="64 " class="btn22rr" onclick="clicknow('64')"/>
+            <input type="button" value="65 " class="btn22rr" onclick="clicknow('65')"/>
+            <input type="button" value="66 " class="btn22rr" onclick="clicknow('66')"/>
+            <input type="button" value="67 " class="btn22rr" onclick="clicknow('67')"/>
+            <input type="button" value="68 " class="btn22rr" onclick="clicknow('68')"/>
+            <input type="button" value="69 " class="btn22rr" onclick="clicknow('69')"/>
+            <input type="button" value="70 " class="btn22rr" onclick="clicknow('70')"/>
+            <input type="button" value="71 " class="btn22rr" onclick="clicknow('71')"/><br>
+            <input type="button" value="89 " class="btn22rr2" onclick="clicknow('89')"/>
+            <input type="button" value="90 " class="btn22rr2" onclick="clicknow('90')"/>
+            <input type="button" value="91 " class="btn22rr2" onclick="clicknow('91')"/>
+            <input type="button" value="92 " class="btn22rr2" onclick="clicknow('92')"/>
+            <input type="button" value="93 " class="btn22rr2" onclick="clicknow('93')"/>
+            <input type="button" value="94 " class="btn22rr2" onclick="clicknow('94')"/>
+            <input type="button" value="95 " class="btn22rr2" onclick="clicknow('95')"/>
+            <input type="button" value="96 " class="btn22rr2" onclick="clicknow('96')"/>
+            <input type="button" value="97 " class="btn22rr2" onclick="clicknow('97')"/>
+            <input type="button" value="98 " class="btn22rr2" onclick="clicknow('98')"/>
+            <input type="button" value="99 " class="btn22rr2" onclick="clicknow('99')"/>
+            <input type="button" value="100" class="btn2r" onclick="clicknow('100')"/>
+            <input type="button" value="101" class="btn2r" onclick="clicknow('101')"/>
+            <input type="button" value="102" class="btn2r" onclick="clicknow('102')"/>
+            <input type="button" value="103" class="btn2r" onclick="clicknow('103')"/><br>
+            <a href="周期表当てゲーム.html" class="btn3">戻る</a>
+            </div>
+        </div>
+        <div id="gamenn3">
+            <h1 id="matigaeta2">間違えた数：0</h1>
+            <h1 id="seikai2">正解した数：0</h1>
+            <h1 id="jikan2">かかった時間：0時間0分0秒</h1>
+            <a href="周期表当てゲーム.html" class="btn3">最初に戻る</a>
+        </div>
+    </body>
+</html>   

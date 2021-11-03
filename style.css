@@ -1,0 +1,300 @@
+@charset "utf-8";
+
+
+
+body{
+	overflow:hidden;
+}
+
+.title{
+    font-size: 300%;
+    text-align: center;
+}
+
+.btn1{
+    font-size:300%;
+    margin:auto;
+	display: inline;
+	padding:80px 60px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height:200px;
+	background-color: rgb(44, 185, 44);
+	border-radius: 8px;
+	transition: all 400ms;
+	border-bottom: 20px solid #888;
+	position:relative;
+	top: 0px;
+
+}
+.btn1:hover{
+	background-color: rgb(115, 194, 115);
+	color:#555;
+	cursor: pointer;
+}
+.btn1:active{
+	border-bottom: 0px solid #888;
+		position:relative;
+	top: 20px;
+	transition: all 100ms;
+}
+
+
+.buttontyuuou{
+    text-align:center;
+}
+
+.btn2{
+	margin: 0px 0px;
+	padding:8px 6.4px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height:30px;
+	background-color: #1e90ff;
+	transition: background-color 300ms 0s;
+	position:relative;
+	top: 0px;
+
+}
+.btn2:hover{
+	background-color: rgb(138, 202, 255);
+	color:#555;
+	cursor: pointer;
+}
+.btn2:active{
+	position:relative;
+	transition: all 100ms;
+}
+
+.btn21{
+	margin: 0px 0px;
+	padding:8px 10px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height:30px;
+	background-color: #1e90ff;
+	transition: background-color 300ms 0s;
+	position:relative;
+	top: 0px;
+
+}
+.btn21:hover{
+	background-color: rgb(138, 202, 255);
+	color:#555;
+	cursor: pointer;
+}
+.btn21:active{
+	position:relative;
+	transition: all 100ms;
+}
+
+.btn22{
+	margin: 0px 0px;
+	padding:8px 8.2px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height:30px;
+	background-color: #1e90ff;
+	transition: background-color 300ms 0s;
+	position:relative;
+	top: 0px;
+
+}
+.btn22:hover{
+	background-color: rgb(138, 202, 255);
+	color:#555;
+	cursor: pointer;
+}
+.btn22:active{
+	position:relative;
+	transition: all 100ms;
+}
+
+.btn3{
+    font-size:100%;
+    margin:auto;
+	display: inline;
+	padding:5px 10px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height:20px;
+	background-color: rgb(44, 185, 44);
+	border-radius: 4px;
+	transition: all 400ms;
+	border-bottom: 5px solid #888;
+	position:relative;
+	top: 5px;
+
+}
+.btn3:hover{
+	background-color: rgb(115, 194, 115);
+	color:#555;
+	cursor: pointer;
+}
+.btn3:active{
+	border-bottom: 0px solid #888;
+		position:relative;
+	top: 10px;
+	transition: all 100ms;
+}
+
+.kotaediv{
+	position: relative;
+	left: 550px;
+	bottom: 270px;
+}
+
+.kotae{
+	font-size: 300%;
+	position: relative;
+	left: 75px;
+}
+
+.kotaebanngou{
+	position: relative;
+	top: 50px;
+	left: 60px;
+}
+.kotaename{
+	position: relative;
+	font-size: 110%;
+	left: 40px;
+	bottom: 40px;
+}
+
+.syuukihyou{
+	position: relative;
+	bottom: 370px;
+}
+
+.btn22r{
+	margin: 0px 0px;
+	padding:8px 8.2px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height:30px;
+	background-color: #c74242;
+	transition: background-color 300ms 0s;
+	position:relative;
+	top: 0px;
+
+}
+
+.btn22rr{
+	margin: 0px 0px;
+	padding:8px 8.2px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height:30px;
+	background-color: #c74242;
+	transition: background-color 300ms 0s;
+	position:relative;
+	top: 0px;
+
+}
+.btn22rr:hover{
+	background-color: #f2958d;
+	color:#555;
+	cursor: pointer;
+}
+.btn22rr:active{
+	position:relative;
+	transition: all 100ms;
+}
+
+.btn22r2{
+	margin: 0px 0px;
+	padding:8px 8.2px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height:30px;
+	background-color: #3ebd42;
+	transition: background-color 300ms 0s;
+	position:relative;
+	top: 0px;
+
+}
+
+.btn22rr2{
+	margin: 0px 0px;
+	padding:8px 8.2px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height:30px;
+	background-color: #3ebd42;
+	transition: background-color 300ms 0s;
+	position:relative;
+	top: 0px;
+
+}
+.btn22rr2:hover{
+	background-color: #a5e6a7;
+	color:#555;
+	cursor: pointer;
+}
+.btn22rr2:active{
+	position:relative;
+	transition: all 100ms;
+}
+
+.btn2r{
+	margin: 0px 0px;
+	padding:8px 6.4px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height:30px;
+	background-color: #3ebd42;
+	transition: background-color 300ms 0s;
+	position:relative;
+	top: 0px;
+
+}
+.btn2r:hover{
+	background-color: #a5e6a7;
+	color:#555;
+	cursor: pointer;
+}
+.btn2r:active{
+	position:relative;
+	transition: all 100ms;
+}
+
+
+#sakujo{
+	position: relative;
+	font-size: 200%;
+	top: 30px;
+	left: 200px;
+}
+
+.hyou{
+	position: relative;
+	left: 300px;
+}
+
+.setumei{
+
+	position: relative;
+	top: 60px;
+}
+
+.wakusen{
+	position: relative;
+	display: inline;
+	size: 50%;
+	border: 5px  solid #3defff;
+	background-color: #3defff;
+	left: 585px;
+	bottom: 90px;
+	padding: 40px 70px;
+}
