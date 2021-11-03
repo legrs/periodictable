@@ -297,6 +297,7 @@ body{
 }
 
 .wakusen{
+	border-radius: 2px;
 	position: relative;
 	display: inline;
 	size: 50%;
