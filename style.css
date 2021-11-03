@@ -1,6 +1,8 @@
 @charset "utf-8";
 
-
+html {
+  font-size: 10px;
+}
 
 body{
 	overflow:hidden;
@@ -15,15 +17,15 @@ body{
     font-size:300%;
     margin:auto;
 	display: inline;
-	padding:80px 60px;
+	padding:8rem 6rem;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
-	line-height:200px;
+	line-height:20rem;
 	background-color: rgb(44, 185, 44);
-	border-radius: 8px;
+	border-radius: 0.8rem;
 	transition: all 400ms;
-	border-bottom: 20px solid #888;
+	border-bottom: 2rem solid #888;
 	position:relative;
 	top: 0px;
 
@@ -47,12 +49,13 @@ body{
 
 .btn2{
 	margin: 0px 0px;
-	padding:8px 6.4px;
+	padding:0.8rem 0.64rem;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
-	line-height:30px;
+	line-height:3rem;
 	background-color: #1e90ff;
+	border-radius:0px;
 	transition: background-color 300ms 0s;
 	position:relative;
 	top: 0px;
@@ -70,12 +73,12 @@ body{
 
 .btn21{
 	margin: 0px 0px;
-	padding:8px 10px;
+	padding:0.8rem 1rem;
 	color: #fff;
 	border-radius: 0px;
 	text-decoration: none;
 	text-align: center;
-	line-height:30px;
+	line-height:3rem;
 	background-color: #1e90ff;
 	transition: background-color 300ms 0s;
 	position:relative;
@@ -94,12 +97,12 @@ body{
 
 .btn22{
 	margin: 0px 0px;
-	padding:8px 8.2px;
+	padding:0.8rem 0.82rem;
 	color: #fff;
 	border-radius: 0px;
 	text-decoration: none;
 	text-align: center;
-	line-height:30px;
+	line-height:3rem;
 	background-color: #1e90ff;
 	transition: background-color 300ms 0s;
 	position:relative;
@@ -120,17 +123,17 @@ body{
     font-size:100%;
     margin:auto;
 	display: inline;
-	padding:5px 10px;
+	padding:0.5rem 1rem;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
-	line-height:20px;
+	line-height:2rem;
 	background-color: rgb(44, 185, 44);
-	border-radius: 4px;
+	border-radius: 0.4rem;
 	transition: all 400ms;
-	border-bottom: 5px solid #888;
+	border-bottom: 0.5rem solid #888;
 	position:relative;
-	top: 5px;
+	top:0.5rem;
 
 }
 .btn3:hover{
@@ -141,47 +144,49 @@ body{
 .btn3:active{
 	border-bottom: 0px solid #888;
 		position:relative;
-	top: 10px;
+	top: 1rem;
 	transition: all 100ms;
 }
 
 .kotaediv{
 	position: relative;
-	left: 550px;
-	bottom: 270px;
+	left: 55rem;
+	bottom: 20rem;
 }
 
 .kotae{
-	font-size: 300%;
+	font-size: 400%;
 	position: relative;
-	left: 75px;
+	left: 7.5rem;
+	bottom: 4rem;
 }
 
 .kotaebanngou{
+	font-size: 170%;
 	position: relative;
-	top: 50px;
-	left: 60px;
+	bottom: 2rem;
+	left: 6rem;
 }
 .kotaename{
 	position: relative;
-	font-size: 110%;
-	left: 40px;
-	bottom: 40px;
+	font-size: 170%;
+	left: 3rem;
+	bottom: 6rem;
 }
 
 .syuukihyou{
 	position: relative;
-	bottom: 370px;
+	bottom: 32rem;
 }
 
 .btn22r{
 	border-radius: 0px;
 	margin: 0px 0px;
-	padding:8px 8.2px;
+	padding:0.8rem 0.82rem;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
-	line-height:30px;
+	line-height:3rem;
 	background-color: #c74242;
 	transition: background-color 300ms 0s;
 	position:relative;
@@ -192,11 +197,11 @@ body{
 .btn22rr{
 	border-radius: 0px;
 	margin: 0px 0px;
-	padding:8px 8.2px;
+	padding:0.8rem 0.82rem;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
-	line-height:30px;
+	line-height:3rem;
 	background-color: #c74242;
 	transition: background-color 300ms 0s;
 	position:relative;
@@ -216,11 +221,11 @@ body{
 .btn22r2{
 	border-radius: 0px;
 	margin: 0px 0px;
-	padding:8px 8.2px;
+	padding:0.8rem 0.82rem;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
-	line-height:30px;
+	line-height:3rem;
 	background-color: #3ebd42;
 	transition: background-color 300ms 0s;
 	position:relative;
@@ -231,11 +236,11 @@ body{
 .btn22rr2{
 	border-radius: 0px;
 	margin: 0px 0px;
-	padding:8px 8.2px;
+	padding:0.8rem 0.82rem;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
-	line-height:30px;
+	line-height:3rem;
 	background-color: #3ebd42;
 	transition: background-color 300ms 0s;
 	position:relative;
@@ -255,11 +260,11 @@ body{
 .btn2r{
 	border-radius: 0px;
 	margin: 0px 0px;
-	padding:8px 6.4px;
+	padding:0.8rem 0.64rem;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
-	line-height:30px;
+	line-height:3rem;
 	background-color: #3ebd42;
 	transition: background-color 300ms 0s;
 	position:relative;
@@ -279,20 +284,22 @@ body{
 
 #sakujo{
 	position: relative;
-	font-size: 200%;
-	top: 30px;
-	left: 200px;
+	font-size: 300%;
+	top: 3rem;
+	left: 20rem;
 }
 
 .hyou{
+	font-size: 200%;
 	position: relative;
-	left: 300px;
+	left: 20rem;
+	top: 2rem;
 }
 
 .setumei{
 
 	position: relative;
-	top: 60px;
+	top: 0rem;
 }
 
 .wakusen{
@@ -301,7 +308,7 @@ body{
 	size: 50%;
 	border: 5px  solid #3defff;
 	background-color: #3defff;
-	left: 585px;
-	bottom: 90px;
-	padding: 40px 75px;
+	left: 56rem;
+	bottom: 11rem;
+	padding: 5rem 7rem;
 }
