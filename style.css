@@ -53,6 +53,7 @@ body{
 	text-align: center;
 	line-height:30px;
 	background-color: #1e90ff;
+	border-radius:0px;
 	transition: background-color 300ms 0s;
 	position:relative;
 	top: 0px;
