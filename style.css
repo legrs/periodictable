@@ -142,7 +142,7 @@ body{
 	cursor: pointer;
 }
 .btn3:active{
-	box-shadow: 0 5px 0 0 #1f6a1f;
+	box-shadow: 0 0px 0 0 #1f6a1f;
 		position:relative;
 	top: 10px;
 	transition: all 100ms;
