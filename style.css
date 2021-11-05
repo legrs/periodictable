@@ -309,3 +309,73 @@ body{
 	padding: 40px 75px;
 	border-radius: 6px;
 }
+
+.btn4{
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	background-color: #1e90ff;
+	width: 45px;
+	height: 45px;
+	border: 2px solid #000;
+	transition:0.3s all;
+}
+.btn4:hover{
+	background-color: #7dbdfd;
+	color: #000;
+}
+.tdkuuhaku{
+	text-align: center;
+	color: rgba(255, 255, 255, 0);
+	cursor: default;
+	background-color: #1e8fff00;
+	width: 45px;
+	height: 45px;
+	border: 0px;
+}
+.btn5{
+	text-align: center;
+	color: #fff;
+	cursor: default;
+	background-color: #c74242;
+	width: 45px;
+	height: 45px;
+	border: 2px solid #000;
+}
+.btn6{
+	text-align: center;
+	color: #fff;
+	cursor: default;
+	background-color: #58c742;
+	width: 45px;
+	height: 45px;
+	border: 2px solid #000;
+}
+.btn7{
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	background-color: #c74242;
+	width: 45px;
+	height: 45px;
+	border: 2px solid #000;
+	transition:0.3s all;
+}
+.btn7:hover{
+	background-color: #c07d7d;
+	color: #000;
+}
+.btn8{
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	background-color: #58c742;
+	width: 45px;
+	height: 45px;
+	border: 2px solid #000;
+	transition:0.3s all;
+}
+.btn8:hover{
+	background-color: #92c587;
+	color: #000;
+}
