@@ -130,7 +130,8 @@ body{
 	background-color: rgb(44, 185, 44);
 	border-radius: 4px;
 	transition: all 400ms;
-	border-bottom: 5px solid #888;
+	border:0px;
+	box-shadow: 0 5px 0 0 #1f6a1f;
 	position:relative;
 	top: 5px;
 
@@ -141,7 +142,7 @@ body{
 	cursor: pointer;
 }
 .btn3:active{
-	border-bottom: 0px solid #888;
+	box-shadow: 0 5px 0 0 #1f6a1f;
 		position:relative;
 	top: 10px;
 	transition: all 100ms;
