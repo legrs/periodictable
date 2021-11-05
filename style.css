@@ -23,9 +23,10 @@ body{
 	background-color: rgb(44, 185, 44);
 	border-radius: 8px;
 	transition: all 400ms;
-	border-bottom: 20px solid #888;
 	position:relative;
 	top: 0px;
+	border:0px;
+	box-shadow: 0 20px 0 0 #1f6a1f;
 
 }
 .btn1:hover{
@@ -34,7 +35,7 @@ body{
 	cursor: pointer;
 }
 .btn1:active{
-	border-bottom: 0px solid #888;
+	box-shadow: 0 0px 0 0 #1f6a1f;
 		position:relative;
 	top: 20px;
 	transition: all 100ms;
