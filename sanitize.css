@@ -33,6 +33,7 @@
  */
 
 html {
+  margin-left:50px;
   cursor: default; /* 1 */
   line-height: 1.5; /* 2 */
   -moz-tab-size: 4; /* 3 */
