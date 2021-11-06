@@ -49,7 +49,7 @@ function button2click2() { //範囲ありボタンhtrml<input>onclickで使用
     Display('no2');
     return saidaibanngou; //返り値
     }else{
-        button2click2();
+        
     }
 };
 function button2click() { //クリックされたらここにまず来る
