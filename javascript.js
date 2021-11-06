@@ -44,9 +44,13 @@ function button1click() { //範囲なしボタンhtrml<input>onclickで使用
 
 function button2click2() { //範囲ありボタンhtrml<input>onclickで使用
     saidaibanngou = prompt("何番まで出しますか？(1~118までの半角英数字で)");
+    if(1 <= saidaibanngou <= 118){
     console.log('1~' + saidaibanngou);
     Display('no2');
     return saidaibanngou; //返り値
+    }else{
+        button2click2();
+    }
 };
 function button2click() { //クリックされたらここにまず来る
     const date = new Date();
