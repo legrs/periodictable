@@ -49,29 +49,31 @@ function button2click2() { //範囲ありボタンhtrml<input>onclickで使用
         Display('no2');
         return saidaibanngou; //返り値
     }else{
+        console.log("tigau");
         return "tigau";
     }
 };
 function button2click() { //クリックされたらここにまず来る
     saidaibanngou = button2click2();
     if(saidaibanngou == "tigau"){
-
+        console.log("違う");
     }else{
-    const date = new Date();
-    hour = date.getHours();
-    minutes = date.getMinutes();
-    soconds = date.getSeconds(); //実行してから最大番号を代入(返り値)
-    nokori =saidaibanngou;
-    if(saidaibanngou == 'undefined') { //なかったら範囲なしだと判断
-        saidaibanngou =118;
-    }
-    document.getElementById('nokori').innerHTML = "残り" + nokori + "問";
-    random = Math.floor( Math.random () * saidaibanngou) + 1;
-    gennsomei2 = gennsomeihairetu [random];
-    console.log(gennsomei2 );
-    gamenn2.insertAdjacentHTML('afterbegin',"<h2 id='sakujo'>" + gennsomei2 +"</h2>");
+        const date = new Date();
+        hour = date.getHours();
+        minutes = date.getMinutes();
+        soconds = date.getSeconds(); //実行してから最大番号を代入(返り値)
+        nokori =saidaibanngou;
+        if(saidaibanngou == 'undefined') { //なかったら範囲なしだと判断
+            saidaibanngou =118;
+        }
+        document.getElementById('nokori').innerHTML = "残り" + nokori + "問";
+        random = Math.floor( Math.random () * saidaibanngou) + 1;
+        gennsomei2 = gennsomeihairetu [random];
+        console.log(gennsomei2 );
+        gamenn2.insertAdjacentHTML('afterbegin',"<h2 id='sakujo'>" + gennsomei2 +"</h2>");
     }
 };
+
 
 
 console.log(random);
