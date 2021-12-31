@@ -55,6 +55,7 @@ function button2click2() { //範囲ありボタンhtrml<input>onclickで使用
         console.log("tigau");
         return "tigau";
     }
+    }
 };
 function button2click() { //クリックされたらここにまず来る
     saidaibanngou = button2click2();
