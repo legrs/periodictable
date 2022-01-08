@@ -22,7 +22,11 @@ var soconds ;
 var hour2 ;
 var minutes2 ;
 var soconds2;
+var hannkaku ;
 //--------------------------------------
+function hikaku(hikakuvalue){
+    if(String(hikakuvalue).match(/^\d+$/)){return 1}else{return 0}
+}
 
 function button1click() { //範囲なしボタンhtrml<input>onclickで使用
     const date = new Date();
@@ -45,16 +49,21 @@ function button1click() { //範囲なしボタンhtrml<input>onclickで使用
 function button2click2() { //範囲ありボタンhtrml<input>onclickで使用
     saidaibanngou = prompt("何番まで出しますか？(1~118までの半角英数字で)");
     if(saidaibanngou == null){
-        location.reload(false)
+        location.reload(false);
     }else{
-    if(1 <= saidaibanngou <= 118){
-        console.log('1~' + saidaibanngou);
-        Display('no2');
-        return saidaibanngou; //返り値
-    }else{
-        console.log("tigau");
-        return "tigau";
-    }
+        hannkaku = hikaku(saidaibanngou);
+        if(hannkaku ==0){
+            location.reload(false);
+        }else{
+            if(1 <= saidaibanngou <= 118){ 
+               console.log('1~' + saidaibanngou);
+               Display('no2');
+               return saidaibanngou; //返り値
+            }else{
+                console.log("tigau");
+                return "tigau";
+            }
+        }
     }
 };
 function button2click() { //クリックされたらここにまず来る
