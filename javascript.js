@@ -53,6 +53,7 @@ function button2click2() { //範囲ありボタンhtrml<input>onclickで使用
     }else{
         hannkaku = hikaku(saidaibanngou);
         if(hannkaku ==0){
+            alert("1~118までの半角英数字で入力してください");
             location.reload(false);
         }else{
             if(1 <= saidaibanngou <= 118){ 
@@ -60,6 +61,7 @@ function button2click2() { //範囲ありボタンhtrml<input>onclickで使用
                Display('no2');
                return saidaibanngou; //返り値
             }else{
+                alert("1~118までの半角英数字で入力してください");
                 console.log("tigau");
                 return "tigau";
             }
@@ -71,6 +73,7 @@ function button2click() { //クリックされたらここにまず来る
     
         if(saidaibanngou == "tigau"){
         console.log("違う");
+        location.reload(false);
     }else{
         const date = new Date();
         hour = date.getHours();
